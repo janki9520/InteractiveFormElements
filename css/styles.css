@@ -1,0 +1,115 @@
+/*CSS code here*/
+
+/*keep hp laptop left of mac*/
+#img1{
+   width: 250px;
+   height: 200px;
+   float: left;
+   margin-left: 200px;
+}
+
+/*center mac laptop*/ 
+#img2 {
+    width: 300px;
+    height: 170px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+/*keep dell laptop right of mac*/
+#img3{
+   width: 250px;
+   height: 200px;
+   display: block;
+   float: right;
+   margin-right: 200px;
+}
+
+div#title{
+	text-align: center;
+	color: #c83349;
+	font-size: 20pt;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 10px;
+    margin-bottom:15px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#selectDiv{
+    width: 70%;
+    height:250px;
+    margin-left: 235px;
+    margin-top: 55px;
+    text-align: center;
+    font-size: 52px;
+}
+
+
+
+ select{
+    border-radius: 25px;
+    background: #303030;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+     color: whitesmoke;
+    height: 32px;
+    padding: 5px;
+    width: 410px;
+     cursor: pointer;
+}
+
+form{
+    display:block;
+    margin:0 auto;
+    width:475px;    
+    position:relative;
+    overflow:hidden;
+}
+
+
+ button {
+    background-color: #4d0000 ;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+     border-radius: 12px 12px;
+     width: 90px;
+}
+
+ .reset{
+     margin-left: 610px;
+     margin-right: 50px;
+ }
+
+
+ input{
+      margin:17px;
+     font-family: "Times New Roman",serif;
+     font-size: 15px;
+
+
+ }
+
+
+#registerBtn {
+    background-color: #4d0000 ;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 12px 12px;
+    width: 75px;
+}
+

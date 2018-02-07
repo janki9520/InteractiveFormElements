@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project 1-Interactive Form Elements</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Interactive Form Elements">
+    <meta name="keywords" content="Form, Elements, HTML, CSS, Javascript">
+    <meta name="author" content="Janaki Patel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;" charset="utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Main javascript file having all the functionalities -->
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<!-- init() function called when page loaded -->
+<body onload="init();">
+    
+    <!-- title of the project -->
+    <div id="title">
+     FIND THE RIGHT LAPTOP FOR YOU
+    </div>
+
+    <!-- laptops images -->
+	<img id="img1" src="images/hpLaptop.png" alt="HP Laptop">
+	<img id="img2" src="images/macLaptop.jpg" alt="MAC Laptop">
+	<img id="img3" src="images/dellLaptop.jpg" alt="DELL Laptop">
+
+
+	<!-- select options created dynamically here -->
+	<form name="form">
+
+    </form>
+
+    <!--create reset and submit button to reset or review the selections -->
+    <button id="resetBtn" class="reset" onclick="resetBtnClicked();">RESET</button>
+    <button id="submitBtn" class="submit" onclick="submitSelection();">SUBMIT</button>
+
+    <!--view the user selection in this section-->
+    <div id="resultDisplayDiv">
+        
+    </div>
+
+    <!--form inputs and validation-->
+    <!--user provides name and email address-->
+    <form id="displayForm">
+
+    </form>
+ 
+    <!--animated image in the footer (Moves left to right onload of the page)-->
+	<footer>
+	      <img id="animatedImg" src="images/animatedImage.png"/>
+	</footer>
+
+
+</body>
+
+</html>

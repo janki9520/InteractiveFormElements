@@ -1,0 +1,41 @@
+jsonData = {
+	
+ "Choose a laptop brand":[],
+
+	 "HP": {
+	 	"Choose a laptop model":[],
+		 	"HP Envy":["Choose laptop specifications","HP Envy 13;8GB Memory;256GB SSD","HP Envy 15;8GB Memory;2TB HDD","HP Envy 17;16GB Memory;1TB HDD+128GB SSD"],
+		 	"HP Spectre":["Choose laptop specifications","HP Spectre x;8GB Memory;256GB SSD","HP Spectre x360;16GB Memory;512GB SSD","HP Spectre x2;8GB Memory;128GB SSD"],
+		 	"HP Pavilion":["Choose laptop specifications","HP Pavilion x360;4GB Memory;500GB HDD","HP Pavilion 15;8GB Memory;1TB HDD","HP Pavilion 17;8GB Memory;1TB HDD"]
+
+	 },
+
+     "MAC": {
+     	"Choose a laptop Model":[],
+   			"MacBook":["Choose laptop specifications","1.2GHz Processor;256GB Storage","1.3GHz Processor;512GB Storage"],
+     		"MacBook Air":["Choose laptop specifications","1.8GHz Processor;128GB Storage","1.8GHz Processor;256GB Storage"],
+     		"MacBook Pro":["Choose laptop specifications","2.3GHz Processor;128GB Storage","2.3GHz Processor;256GB Storage","TouchBar & TouchID;3.1GHz Processor;256GB Storage","TouchBar & TouchID;3.1GHz Processor;512GB Storage"]
+     },
+      
+     "DELL": {
+     	"Choose a laptop Model":[],
+     		"DELL XPS":["Choose laptop specifications","XPS 13;4GB Memory;128GB SSD","XPS 13 2-in-1;8GB Memory;256GB SSD","XPS 15;8GB Memory;1TB SSD"],
+     		"DELL Chromebook":["Choose laptop specifications","Chromebook 11 3180;4GB Memory;32GB Storage","New Chromebook 3380;4GB Memory;64GB Storage"],
+     		"DELL Inspiron":["Choose laptop specifications","Inspiron 15 3000;6GBMemory;1TB SSD","Inspiron 15 5000;4GB Memory;500GB SSD","Inspiron 17 7000;8GB Memory;1TB SSD"]
+     },
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
